@@ -2,7 +2,7 @@
 
 Proyek portofolio data analyst. Saya berperan sebagai analyst baru di toko baju online, membersihkan data yang sengaja dibuat berantakan, lalu menggali penjualan untuk menghasilkan rekomendasi bisnis.
 
-> Dataset simulasi dari [ngulikdata.com](https://ngulikdata.com). Semua data bersifat fiktif.
+> Dataset simulasi "Gayanara: Toko Fashion Online" dari [ngulikdata.com](https://ngulikdata.com). Semua data bersifat fiktif.
 
 ## Pertanyaan Bisnis
 1. Bagaimana tren revenue per bulan?
@@ -33,9 +33,12 @@ Proyek portofolio data analyst. Saya berperan sebagai analyst baru di toko baju 
 - Revenue = `total_amount_idr` (sudah net diskon, belum termasuk ongkir), hanya status delivered, shipped, processing
 
 ## Cara Menjalankan
-1. Unduh dataset dari ngulikdata.com, taruh 5 file CSV di folder `data/`
-2. Jalankan notebook berurutan: 01, 02, 03
-3. Library: `pip install pandas matplotlib`
+1. Clone repo ini
+2. Unduh dataset gratis dari [halaman Ngulik Data](https://ngulikdata.com/datasets/gayanara) (perlu isi nama dan email), lalu buat folder `data/` dan taruh 5 file CSV di dalamnya: products.csv, customers.csv, orders.csv, order_items.csv, reviews.csv
+3. Install library: `pip install pandas matplotlib jupyter`
+4. Jalankan notebook berurutan: 01, 02, 03 (notebook 01 membuat folder `data_clean/`)
+
+Diuji dengan Python 3.12.
 
 ## Tools
 Python, pandas, matplotlib, Jupyter (VS Code)
