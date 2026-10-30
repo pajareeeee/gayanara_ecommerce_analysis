@@ -33,7 +33,7 @@ Proyek portofolio data analyst. Saya berperan sebagai analyst baru di toko baju 
 - Revenue = `total_amount_idr` (sudah net diskon, belum termasuk ongkir), hanya status delivered, shipped, processing
 
 ## Cara Menjalankan
-1. Clone repo ini
+1. Unduh repo ini (tombol hijau **Code**, lalu **Download ZIP**, dan ekstrak) atau jalankan `git clone https://github.com/pajareeeee/gayanara_ecommerce_analysis.git`
 2. Unduh dataset gratis dari [halaman Ngulik Data](https://ngulikdata.com/datasets/gayanara) (perlu isi nama dan email), lalu buat folder `data/` dan taruh 5 file CSV di dalamnya: products.csv, customers.csv, orders.csv, order_items.csv, reviews.csv
 3. Install library: `pip install pandas matplotlib jupyter`
 4. Jalankan notebook berurutan: 01, 02, 03 (notebook 01 membuat folder `data_clean/`)
