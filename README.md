@@ -27,6 +27,10 @@ Proyek portofolio data analyst. Saya berperan sebagai analyst baru di toko baju 
 - Promo dipakai 41% order tapi nilai ordernya sekitar 6% lebih kecil
 - 16% order gagal, J&T dan OVO tertinggi (selisih kecil)
 
+## Visualisasi
+![Tren revenue bulanan](images/tren_revenue_bulanan.png)
+![Revenue per kategori](images/revenue_per_kategori.png)
+
 ## Keputusan Cleaning
 - Email dobel: 3 pasang, customer berbeda, jadi diberi flag, tidak dihapus
 - 795 order (26%) tercatat sebelum tanggal registrasi: diberi flag, data tetap dipakai
