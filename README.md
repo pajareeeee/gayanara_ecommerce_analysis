@@ -4,6 +4,8 @@ Proyek portofolio data analyst. Saya berperan sebagai analyst baru di toko baju 
 
 > Dataset simulasi "Gayanara: Toko Fashion Online" dari [ngulikdata.com](https://ngulikdata.com). Semua data bersifat fiktif.
 
+> Versi SQL dari proyek ini: [gayanara_sql_analysis](https://github.com/pajareeeee/gayanara_sql_analysis)
+
 ## Pertanyaan Bisnis
 1. Bagaimana tren revenue per bulan?
 2. Kategori dan kota mana yang paling menghasilkan?
