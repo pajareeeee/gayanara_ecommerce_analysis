@@ -29,6 +29,19 @@ Proyek portofolio data analyst. Saya berperan sebagai analyst baru di toko baju 
 - Promo dipakai 41% order tapi nilai ordernya sekitar 6% lebih kecil
 - 16% order gagal, J&T dan OVO tertinggi (selisih kecil)
 
+## Rekomendasi
+
+1. Evaluasi program promo, karena diskonnya kecil (2,4% revenue) tapi tidak terlihat menaikkan nilai order.
+2. Cari tau penyebab rendahnya T-Shirt (harga, stok, atau tampilan produk).
+3. Pantau order gagal per kurir dan metode bayar sebelum mengambil keputusan.
+
+## Keterbatasan
+
+- Dataset simulasi dari ngulikdata.com.
+- 26% order tercatat sebelum tanggal registrasi customer.
+- Order berstatus processing dihitung sebagai revenue.
+- Selisih antar kurir dan metode bayar kecil, belum diuji secara statistik.
+
 ## Visualisasi
 ![Tren revenue bulanan](images/tren_revenue_bulanan.png)
 ![Revenue per kategori](images/revenue_per_kategori.png)
